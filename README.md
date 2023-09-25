@@ -24,7 +24,7 @@ This repository contains a Python script that fetches historical Bitcoin (BTC) p
 
 1. **Clone the Repository**: 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/tzelalouzeir/XGB_CryptoStrategy.git
    ```
 
 2. **Install Required Libraries**:
@@ -35,7 +35,7 @@ This repository contains a Python script that fetches historical Bitcoin (BTC) p
 
 3. **Run the Script**:
    ```bash
-   python <script-name>.py
+   python xgb_trader.py
    ```
 
 4. **Analyze the Results**: 
