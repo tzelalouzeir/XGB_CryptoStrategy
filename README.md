@@ -40,6 +40,10 @@ This repository contains a Python script that fetches historical Bitcoin (BTC) p
 
 4. **Analyze the Results**: 
    After running the script, it will display various metrics, visualizations, and the final trading balance.
+   ![Result](https://github.com/tzelalouzeir/XGB_CryptoStrategy/blob/main/img/results.png)
+   ![Features](https://github.com/tzelalouzeir/XGB_CryptoStrategy/blob/main/img/features.png)
+   ![ROC](https://github.com/tzelalouzeir/XGB_CryptoStrategy/blob/main/img/roc.png)
+   ![Performance](https://github.com/tzelalouzeir/XGB_CryptoStrategy/blob/main/img/per.PNG)
 
 ## Notes
 
@@ -54,6 +58,20 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Disclaimer
 
 This code is intended for educational purposes only. Past performance is not indicative of future results. Always do your research before making any investment.
+
+## Related Projects
+- [Technical Analysis Repository](<https://github.com/tzelalouzeir/XGBoost_Indicators>): This repository fetches 120 days of hourly Bitcoin price data, calculates technical indicators, and analyzes the relations between these indicators.
+- [Finding Features with XGBoost](https://github.com/tzelalouzeir/XGBoost_Indicators_2): Training and evaluating an XGBoost classifier on the Bitcoin technical indicators dataset. It aims to predict trading signals (like 'long', 'short', or 'neutral') based on the values of various indicators.
+- [XGBoost Model Optimization](https://github.com/tzelalouzeir/XGBoost_Indicators_3): Optimizing the hyperparameters of an XGBoost classifier using the hyperopt library.
+
+## 🤝 Let's Connect!
+Connect with me on [LinkedIn](https://www.linkedin.com/in/tzelalouzeir/).
+
+For more insights into my work, check out my latest project: [tafou.io](https://tafou.io).
+
+I'm always eager to learn, share, and collaborate. If you have experiences, insights, or thoughts about RL, Prophet, XGBoost, SARIMA, ARIMA, or even simple Linear Regression in the domain of forecasting, please create an issue, drop a comment, or even better, submit a PR! 
+
+_Let's learn and grow together!_ 🌱
 
 ## License
 
