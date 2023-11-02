@@ -10,8 +10,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_auc_score, roc_curve, log_loss
 
 # # Fetching data and desire timeframe and save as csv, currently i want to use 30day (max) and 5min timeframe
-# df= yf.download("BTC-USD",period="30d",interval="5m")
-# df.to_csv('btc30d.csv')
+df= yf.download("BTC-USD",period="30d",interval="5m")
+df.to_csv('btc30d.csv')
 
 # Load your data from CSV
 df = pd.read_csv('btc30d.csv', parse_dates=['Datetime']) # For day timeframe using 'Date' column and for Hours and Minutes is 'Datetime'
